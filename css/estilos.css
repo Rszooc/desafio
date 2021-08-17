@@ -27,7 +27,7 @@ body {
 .mhead h1{
     text-align: center;
 }
-.mcontent {
+.maincontent {
     height: 80vh;
     width: 100vw;
     display: flex;
@@ -38,16 +38,21 @@ body {
     background-position: center;
     background-size: cover;
 }
-.mcontent h2{
+.maincontent h2{
     padding: 2rem 0;
     text-align: center;
 }
-.mvContent {
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 1rem;
+.content_Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 0.5rem;
     height: 60vh;
     width: 80vw;
 }
+
 .fcontainer {
     display: flex;
     justify-content: center;
